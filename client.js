@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 const request = require('request');
-// const url = "http://47.105.220.147:8082/manholeData/addManholeData";
+const url = "http://47.105.220.147:8082/manholeData/addManholeData";
 
 const ws = new WebSocket('ws://58.49.128.78:9125')
 
